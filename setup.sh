@@ -234,6 +234,8 @@ EOS
 echo " ------------ END ------------"
 
 
+echo " Done!"
+
 # #
 # # Install wget
 # #
