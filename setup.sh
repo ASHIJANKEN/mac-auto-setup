@@ -203,15 +203,14 @@ cp -r $IDF_PATH/examples/get-started/hello_world .
 cd $ORIGIN_PATH
 echo " ------------ END ------------"
 
-echo " ---------- defaults ---------"
-# Show hidden files
-defaults write com.apple.finder AppleShowAllFiles -boolean true
+#
+# defaults
+#
+./defaults.sh
 
-
-
-killall Finder
-echo " ------------ END ------------"
-
+#
+# Install manually
+#
 echo " ------ Install manually -----"
 cat << EOS
  Install softwares listed below manually.
